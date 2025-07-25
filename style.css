@@ -79,3 +79,51 @@ body {
     justify-content: space-between;
   }
 }
+
+
+
+.banner {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.banner-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.banner-text {
+  flex: 1;
+}
+
+.banner-text h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: rgb(201, 135, 14);
+}
+
+.banner-image {
+  flex: 1;
+  text-align: right;
+}
+
+.banner-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
