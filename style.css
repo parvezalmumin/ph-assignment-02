@@ -435,3 +435,50 @@ body {
   }
 }
 
+
+
+@media (max-width: 768px) {
+  .deals-grid {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .deal-left {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deal-card {
+    min-height: 200px;
+    width: 100%;
+    padding: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .deal-card.large {
+    min-height: 200px;
+  }
+
+  .deal-text.center {
+    text-align: left;
+  }
+
+  .deal-text h3 {
+    font-size: 18px;
+  }
+
+  .deal-text a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .deals-header h2 {
+    font-size: 26px;
+  }
+
+  .deals-header p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
