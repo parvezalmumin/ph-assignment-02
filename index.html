@@ -107,4 +107,26 @@
   </div>
 </section>
 
+@media (max-width: 768px) {
+  /* ... other styles ... */
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr); /* ✅ Two cards side by side */
+    gap: 16px;
+  }
+
+  .product-card h3 {
+    font-size: 16px;
+  }
+
+  .product-card .price {
+    font-size: 15px;
+  }
+
+  .product-card button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
 
