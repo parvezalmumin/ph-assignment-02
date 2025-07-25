@@ -226,3 +226,76 @@ body {
 }
 
 
+
+.plants-lover-section {
+  padding: 60px 0;
+  background-color: #f4f4f4;
+}
+
+.plants-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 5%;
+}
+
+.plants-image {
+  flex: 1;
+  position: relative; /* Needed for badge positioning */
+}
+
+.plants-image img:first-child {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.trusted-badge {
+  width: 80px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+.plants-text {
+  flex: 1;
+}
+
+.plants-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.plants-text .bold {
+  font-weight: bold;
+}
+
+.plants-text ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #555;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.plants-text li {
+  margin-bottom: 12px;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .plants-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .trusted-badge {
+    top: 10px;
+    right: 10px;
+    width: 70px;
+  }
+}
