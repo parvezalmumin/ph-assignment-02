@@ -61,7 +61,6 @@ body {
 }
 
 
-/* Responsive for Mobile */
 @media (max-width: 768px) {
   .nav-menu ul {
     gap: 0;
@@ -114,7 +113,7 @@ body {
 }
 
 .highlight {
-  color: rgb(201, 135, 14);
+  color: rgb(236, 156, 6);
 }
 
 .banner-image {
@@ -126,4 +125,29 @@ body {
   width: 100%;
   max-width: 500px;
   height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .banner-container {
+    flex-direction: column-reverse;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .banner-text h1 {
+    font-size: 28px;
+  }
+
+  .banner-text p {
+    font-size: 16px;
+  }
+
+  .banner-image {
+    text-align: center;
+  }
+
+  .banner-image img {
+    max-width: 100%;
+  }
 }
